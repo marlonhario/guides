@@ -1,0 +1,9 @@
+How to add Existing project to a GitHub Repository?
+	- create new repo
+	- rd .git /S/Q (optional to remove .git exist)
+	- git init (optional create .git)
+	- git add .
+	- git commit -m "My first Commit"
+	- git remote add origin "https://github.com/marlonhario/vue-spa-api.git"
+	- git push -u origin master
+	- git push -f origin master (if errors occur:  ! [rejected]  master -> master (non-fast-forward))

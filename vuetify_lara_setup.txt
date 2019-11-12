@@ -1,0 +1,32 @@
+
+php artisan preset none
+php artisan preset vue
+npm i vuetify --save
+npm i
+
+==========================
+// index.js / app.js
+import Vue from 'Vue';
+import Vuetify from 'vuetify';
+
+Vue.use(Vuetify);
+
+new Vue({
+...
+vuetify : new Vuetify(),
+...
+});
+
+=================================
+add required css and icons to your template. 
+	<link href='https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css' rel="stylesheet">
+	https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons 
+	https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900 		https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css
+=================================
+ app.scss.
+
+@import '~vuetify/dist/vuetify.min.css';
+=================================
+npm run watch
+=================================
+So make sure you add the <v-app> element along with id app as follows.
