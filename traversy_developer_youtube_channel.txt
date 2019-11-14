@@ -1,1 +1,14 @@
-Dev Ed
+20+ Developer YouTube Channels To Follow
+
+Dev Ed - front end
+DesignCourse - front end
+The Net Ninja - full stack
+freeCodeCamp.org - full stack
+Program With Erik - Tips and tricks
+Dylan Israel
+Coding Garden with CJ - real life (javascript)
+The Coding Train
+Fun Fun Function - functional javascript
+Stefan Mischook - practical advice for freelacer
+Academind - Maximillian
+14.48

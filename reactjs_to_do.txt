@@ -1,0 +1,24 @@
+All the concept have been covered in this theme have used it.
+
+Must recommend for react js developers who want to learn advance react performance wise, coding wise, quality wise
+
+Example:
+
+1) React Higher order component
+2) React Advance hooks
+- useState
+- useEffect
+- useMemo
+- useContext
+- useImperativeModule
+- useRef
+- Custom hooks
+3) very fast performance than other themes
+4) provided in newer version of react ^16.11.0
+5) Lazy loading
+6) lint stage and pre formate code before git commit
+7) zero configuration theme layout just change one json and select your choice of layout
+8) unique offline documentation which cover all themesetup , authentication, setup everything
+9) Advance use of reusable component
+10) neat and clean project structure with comments
+11) provide react strap component converted in hooks
