@@ -7,3 +7,29 @@ How to add Existing project to a GitHub Repository?
 	- git remote add origin "https://github.com/marlonhario/vue-spa-api.git"
 	- git push -u origin master
 	- git push -f origin master (if errors occur:  ! [rejected]  master -> master (non-fast-forward))
+
+
+
+Switching remote URLs from SSH to HTTPS
+
+    Open Git Bash.
+
+    Change the current working directory to your local project.
+
+    List your existing remotes in order to get the name of the remote you want to change.
+
+    $ git remote -v
+    > origin  git@github.com:USERNAME/REPOSITORY.git (fetch)
+    > origin  git@github.com:USERNAME/REPOSITORY.git (push)
+
+    Change your remote's URL from SSH to HTTPS with the git remote set-url command.
+
+    $ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
+
+    Verify that the remote URL has changed.
+
+    $ git remote -v
+    # Verify new remote URL
+    > origin  https://github.com/USERNAME/REPOSITORY.git (fetch)
+    > origin  https://github.com/USERNAME/REPOSITORY.git (push)
+
